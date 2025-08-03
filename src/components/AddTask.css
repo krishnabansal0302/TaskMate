@@ -1,0 +1,40 @@
+.addTask {
+    position: relative;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 500px;
+    height: 60px;
+    border: 1px solid grey;
+    border-radius: 4px; /* optional: makes corners slightly rounded */
+    background-color: white;
+}
+
+.addTask input {
+    width: 400px;
+    height: 100%; /* fill the height of .addTask */
+    padding: 0 10px; /* horizontal padding for text inside input */
+    font-size: 16px; /* slightly bigger text */
+    border: none; /* remove default border */
+    outline: none; /* remove focus outline */
+    background-color: white;
+}
+
+.addTask button {
+    height: 45px; /* match .addTask height */
+    padding: 0 15px; /* make button wider */
+    font-size: 14px;
+    border: none;
+    background-color: #119F22; /* nice blue color */
+    color: white;
+    cursor: pointer;
+    border-radius: 15%;
+}
+
+.addTask button:hover {
+    background-color: #078115; /* darker on hover */
+}
+    

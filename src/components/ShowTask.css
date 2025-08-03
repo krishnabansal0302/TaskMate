@@ -1,0 +1,108 @@
+:root {
+  --primary: #026EB7;
+  --primary-light: #1C77C3;
+  --danger: rgb(158, 1, 1);
+  --text-light: aliceblue;
+  --grey: grey;
+}
+
+.showTask {
+  border: 1px solid black;
+  width: 70%;
+  padding: 10px;
+  font-size: 1.25rem; /* ~20px */
+  font-weight: 600;   /* instead of bold */
+  background-color: white;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--grey);
+  padding-bottom: 5px;
+}
+
+.title {
+  margin-right: 10px;
+}
+
+.clearAll {
+  height: 30px;
+  font-size: 1rem; /* ~16px */
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--text-light);
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+}
+
+.clearAll:hover {
+  background-color: var(--primary-light);
+  color: var(--text-light);
+  border: 1px solid var(--primary);
+}
+
+.showTask ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem; /* replaces li margin */
+  margin-top: 10px;
+  padding: 0; /* remove default ul padding */
+  list-style: none; /* remove bullets */
+}
+
+.showTask li {
+  height: 80px;
+  width: 275px;
+  border: 1px solid black;
+  border-left: 8px solid var(--primary-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.showTask li p {
+  display: flex;
+  flex-direction: column;
+}
+
+li p .date {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--grey);
+  margin-top: 5px;
+}
+
+.bi {
+  font-size: 1.1rem;
+}
+
+.bi + .bi {
+  margin-left: 5px;
+}
+
+.bi-pencil-square {
+  color: var(--primary);
+}
+
+.bi-trash {
+  color: var(--danger);
+}
+
+.count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1.2rem;
+  padding: 0 0.3rem;
+  background-color: rgb(97, 96, 96);
+  color: var(--text-light);
+  border-radius: 50%;
+  font-size: 0.8rem;
+}
