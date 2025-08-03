@@ -1,4 +1,7 @@
 # TaskMate
+TaskMate is a simple, elegant task management app built with React.  
+It lets you add, edit, and delete tasks — and customize the look with built-in theme switching.  
+Your tasks and selected theme are saved automatically using local storage, so they’re right there when you come back.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,6 +9,30 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [View deployed site on Vercel](https://task-mate.vercel.app)
 
 ---
+## ✅ Features
+- Add, edit, and delete tasks easily
+- Task timestamp to track when tasks were added
+- Clear all tasks at once
+- 🎨 **Theme selection:** switch between multiple themes (light, dark, etc.) by clicking color circles
+- 💾 **Persistent storage:** tasks & theme stay saved using local storage, even after refreshing or reopening
+- Clean, responsive, and user-friendly UI
+
+---
+## ⚙️ Tech Stack
+- React
+- CSS
+- Local Storage API
+- Bootstrap Icons
+
+---
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/krishnabansal0302/TaskMate.git
+cd TaskMate
+npm install
 
 ## 📦 Available Scripts
 
