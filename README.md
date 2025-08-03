@@ -5,10 +5,6 @@ Your tasks and selected theme are saved automatically using local storage, so th
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🚀 Live Demo
-[View deployed site on Vercel](https://task-mate.vercel.app)
-
----
 ## ✅ Features
 - Add, edit, and delete tasks easily
 - Task timestamp to track when tasks were added
